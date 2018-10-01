@@ -11,7 +11,8 @@ web/wp
 web/.htaccess
 
 # Unpackaged
-!web/app/plugins/elementor-pro/*
+!web/app/plugins/elementor-pro
+!web/app/plugins/
 
 # Dotenv
 .env
