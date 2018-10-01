@@ -10,6 +10,9 @@ web/app/uploads/*
 web/wp
 web/.htaccess
 
+# Unpackaged
+!web/app/plugins/elementor-pro/*
+
 # Dotenv
 .env
 .env.*
