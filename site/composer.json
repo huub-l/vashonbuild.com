@@ -36,6 +36,14 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.tinypixel.io/satispress/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/pixelcollective/corporate-communion"
     }
   ],
   "require": {
@@ -46,6 +54,19 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
+    "roots/soil": ">=3.7.3",
+    "wpackagist-plugin/updraftplus": ">=1",
+    "tiny-packagist/wp-migrate-db-pro": ">=1",
+    "tiny-packagist/wp-migrate-db-pro-cli": ">=1",
+    "tiny-packagist/wp-migrate-db-pro-media-files": ">=1",
+    "tiny-packagist/wp-migrate-db-pro-multisite-tools": ">=1",
+    "wpackagist-plugin/cdn-enabler": ">=1",
+    "tiny-packagist/monarch": ">=1",
+    "tiny-packagist/elementor-pro": "2.1.10",
+    "tiny-pixel/wp-performant-media": ">=1",
+    "tiny-pixel/corporate-communion": "@dev",
+    "wpackagist-plugin/stream": "^3.2",
+    "wpackagist-plugin/classic-editor": "^1.0",
     "wpackagist-plugin/disable-comments": ">=1",
     "wpackagist-plugin/wp-dobby": ">=1",
     "wpackagist-plugin/elementor": ">=2",

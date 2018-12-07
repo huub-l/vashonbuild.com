@@ -6,9 +6,9 @@ wordpress_sites:
           - www.vashonbuild.com
           - potentialenergyinc.com
           - www.potentialenergyinc.com
-    local_path: ../site 
-    repo: git@github.com:pixelcollective/vashonbuild.com.git 
-    repo_subtree_path: site 
+    local_path: ../site
+    repo: git@github.com:pixelcollective/vashonbuild.com.git
+    repo_subtree_path: site
     branch: master
     multisite:
       enabled: false
@@ -17,9 +17,3 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: true
-    backup:
-      enabled: true
-      auto: true
-      target: b2://account_id:application_key@tinypixel-io-backups/vashonbuild-com/
-      schedule: '0 0 3 * * ?'
-      purge: true
