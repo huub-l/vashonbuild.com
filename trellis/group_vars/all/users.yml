@@ -8,15 +8,14 @@ users:
       - "{{ web_group }}"
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      - https://github.com/kellymears.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
-
+      - https://github.com/kellymears.keys
 web_user: web
 web_group: www-data
 web_sudoers:
-  - "/usr/sbin/service php7.2-fpm *"
+  - "/usr/sbin/service php7.3-fpm *"
