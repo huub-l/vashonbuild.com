@@ -1,7 +1,0 @@
-vashonbuild.com ansible_host=138.68.5.29
-
-[production]
-vashonbuild.com
-
-[web]
-vashonbuild.com
